@@ -25,3 +25,6 @@ Thumbs.db
 
 # Debug files
 apps/server/docs/debug/
+
+# Local agent instructions
+AGENTS.md
