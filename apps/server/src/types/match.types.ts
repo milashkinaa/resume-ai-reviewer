@@ -1,1 +1,9 @@
-export type { MatchResponse, ImprovementItem } from '../../../../shared/types/match.types.js'
+export interface ImprovementItem {
+  title: string
+  value: string
+}
+
+export interface MatchResponse {
+  resumeImprovements: ImprovementItem[]
+  knowledgeImprovements: ImprovementItem[]
+}
